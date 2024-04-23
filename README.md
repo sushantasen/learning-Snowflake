@@ -1,5 +1,5 @@
 # learning-Snowflake
-#######################################################################################################################################################
+######################################################################################################
 **SnowFlake** is a fully-managed cloud Data platform as a service, or it is a cloud native SaaS data warehouse platform.
 
 Some experts/technie says **Snowflake** is a Data Platform as a Self-managed Service.
@@ -12,7 +12,7 @@ Ongoing maintenance, management, upgrades, and tuning are handled by Snowflake.
 **Snowflake** uses virtual compute instances for its compute needs and a storage service for persistent storage of data. Snowflake cannot be run on private cloud infrastructures (on-premises or hosted).
 
 Snowflake is not a packaged software offering that can be installed by a user. Snowflake manages all aspects of software installation and updates.
-###########################################################################################################################################################
+########################################################################################################
 
 **Please sign in and get the trial account first inorder to start/begin.**
 
@@ -48,7 +48,8 @@ There is no warehouse, database, and schema selected for the current session by 
 Please follow this URL :: https://docs.snowflake.com/en/user-guide/tutorials/snowflake-in-20minutes#summary-clean-up-and-additional-resources
 Once you study this URL and execute all the steps, which means you know snowflake fundamentals of creating DB, schema, warehouse, load data from Internal stages, External stage, Insert additional data for the table, Manage and Query Data, Analyze data based on your business usecases, Clean up if required.
 
-####################################################################3
+####################################################################
+
 **Snowflake Architecture**
 
 At the most basic level, Snowflake has 3 important components. 
@@ -64,9 +65,6 @@ At the most basic level, Snowflake has 3 important components.
 Each virtual warehouse is an independent compute cluster that does not share compute resources with other virtual warehouses. As a result, each virtual warehouse has no impact on the performance of other virtual warehouses.
 
 ![image](https://github.com/sushantasen/learning-Snowflake/assets/89632159/a2e8a6c7-3892-4ed3-94d3-bb6f4c28d43a)
-
-
-![image](https://github.com/sushantasen/learning-Snowflake/assets/89632159/25d4398b-d17d-48f3-9bd8-a46e58d8b0b7)
 
 
 
