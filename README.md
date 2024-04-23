@@ -1,4 +1,4 @@
-![image](https://github.com/sushantasen/learning-Snowflake/assets/89632159/a2e8a6c7-3892-4ed3-94d3-bb6f4c28d43a)# learning-Snowflake
+# learning-Snowflake
 #######################################################################################################################################################
 **SnowFlake** is a fully-managed cloud Data platform as a service, or it is a cloud native SaaS data warehouse platform.
 
@@ -58,11 +58,12 @@ At the most basic level, Snowflake has 3 important components.
 
 **Cloud services** – This is the the “brains” of snowflake. This is where infrastructure management takes place, the optimiser is based (cost-based), metadata management and security (authentication and access control) are handled.
 
-**Storage layer** – Snowflake organises its data within the relevant cloud storage provider in a compressed columnar format – PBs are not problem.
-Snowflake tables use a concept called micro-partitioning. These micro-partitions are contiguous units of storage where each micro-partition contains between 50 MB and 500 MB of uncompressed data – these are immutable! The cloud services layer will hold metadata about the min / max and distinct values about all micro-partitions.
+**Storage layer** – When data is loaded into Snowflake, Snowflake reorganizes that data into its internal optimized, compressed, columnar format. Snowflake stores this optimized data in cloud storages.Snowflake manages all aspects of how this data is stored — the organization, file size, structure, compression, metadata, statistics, and other aspects of data storage are handled by Snowflake. The data objects stored by Snowflake are not directly visible nor accessible by customers; they are only accessible through SQL query operations run using Snowflake..
 
 **Compute / Processing** – Query execution is performed in the processing layer. Snowflake processes queries using “virtual warehouses”. Each virtual warehouse is an MPP(Massive Parallel Processing) compute cluster composed of multiple compute nodes allocated by Snowflake from a cloud provider.
 Each virtual warehouse is an independent compute cluster that does not share compute resources with other virtual warehouses. As a result, each virtual warehouse has no impact on the performance of other virtual warehouses.
+
+![image](https://github.com/sushantasen/learning-Snowflake/assets/89632159/a2e8a6c7-3892-4ed3-94d3-bb6f4c28d43a)
 
 
 ![image](https://github.com/sushantasen/learning-Snowflake/assets/89632159/25d4398b-d17d-48f3-9bd8-a46e58d8b0b7)
