@@ -55,8 +55,11 @@ Once you study this URL and execute all the steps, which means you know snowflak
 **Snowflake Architecture**
 
 At the most basic level, Snowflake has 3 important components. 
+
 **1. The Cloud services layer
+
 2. Centralised storage layer 
+
 3. The compute/Query Processing layer.**
 
 **Cloud services** – This is the the “brains” of snowflake. This is where infrastructure management takes place, the optimiser is based (cost-based), metadata management and security (authentication and access control) are handled.
