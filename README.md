@@ -1,5 +1,7 @@
 # learning-Snowflake
+
 ######################################################################################################
+
 **SnowFlake** is a fully-managed cloud Data platform as a service, or it is a cloud native SaaS data warehouse platform.
 
 Some experts/technie says **Snowflake** is a Data Platform as a Self-managed Service.
