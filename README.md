@@ -62,12 +62,12 @@ At the most basic level, Snowflake has 3 important components.
 
 3. The compute/Query Processing layer.**
 
-**Cloud services** – This is the the “brains” of snowflake. This is where infrastructure management takes place, the optimiser is based (cost-based), metadata management and security (authentication and access control) are handled.
-
-**Storage layer** – When data is loaded into Snowflake, Snowflake reorganizes that data into its internal optimized, compressed, columnar format. Snowflake stores this optimized data in cloud storages.Snowflake manages all aspects of how this data is stored — the organization, file size, structure, compression, metadata, statistics, and other aspects of data storage are handled by Snowflake. The data objects stored by Snowflake are not directly visible nor accessible by customers; they are only accessible through SQL query operations run using Snowflake..
+**Cloud services** – This is the the “brain” of snowflake. This is where infrastructure management takes place, the optimiser is based (cost-based), metadata management and security (authentication and access control) are handled.
 
 **Compute / Processing** – Query execution is performed in the processing layer. Snowflake processes queries using “virtual warehouses”. Each virtual warehouse is an MPP(Massive Parallel Processing) compute cluster composed of multiple compute nodes allocated by Snowflake from a cloud provider.
 Each virtual warehouse is an independent compute cluster that does not share compute resources with other virtual warehouses. As a result, each virtual warehouse has no impact on the performance of other virtual warehouses.
+
+**Storage layer** – When data is loaded into Snowflake, Snowflake reorganizes that data into its internal optimized, compressed, columnar format. Snowflake stores this optimized data in cloud storages.Snowflake manages all aspects of how this data is stored — the organization, file size, structure, compression, metadata, statistics, and other aspects of data storage are handled by Snowflake. The data objects stored by Snowflake are not directly visible nor accessible by customers; they are only accessible through SQL query operations run using Snowflake..
 
 ![image](https://github.com/sushantasen/learning-Snowflake/assets/89632159/a2e8a6c7-3892-4ed3-94d3-bb6f4c28d43a)
 
